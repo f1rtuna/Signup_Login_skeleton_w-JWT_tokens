@@ -1,0 +1,17 @@
+first install mysql if you haven't already: 
+https://dev.mysql.com/downloads/file/?id=523410
+
+then in termina: mysql -u root -p (if you have set password)
+                or mysql -u root (if you haven't)
+brew services start mysql
+then run python3 initializeDB.py with your fields
+
+if you want to connect to teh mysql client directly via terminal:
+
+mysql> connect cipher_tech_challenge_3
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Connection id:    34
+Current database: cipher_tech_challenge_3
+
